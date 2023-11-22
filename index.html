@@ -1,146 +1,251 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
 
-        <!--=============== FAVICON ===============-->
-        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!--=============== REMIXICONS ===============-->
-        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-        
-        <!--=============== SWIPER CSS ===============-->
-        <link rel="stylesheet" href="">
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
 
-        <!--=============== CSS ===============-->
-        <link rel="stylesheet" href="assets/css/styles.css">
+    <!--=============== REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
 
-        <title> Manu. </title>
-    </head>
-    <body>
-        <!--==================== HEADER ====================-->
-        <header class="header" id="header">
-                <nav class="nav container">
-                    <a href="" class="nav__logo">
-                        Manu
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title> Manu. </title>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="" class="nav__logo">
+                Manu
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">
+                            <i class="ri-home-5-line"></i> Home
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="ri-trophy-line"></i> Skills
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#qualification" class="nav__link">
+                            <i class="ri-book-open-line"></i> Qualification
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#services" class="nav__link">
+                            <i class="ri-briefcase-line"></i> Services
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#project" class="nav__link">
+                            <i class="ri-image-line"></i> Projects
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class="ri-chat-3-line"></i> Contact
+                        </a>
+                    </li>
+                </ul>
+
+                <!--Close Button -->
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <div class="nav__buttons">
+                <!--Theme CHnage Button-->
+                <!-- <i class="ri-moon-line change-theme" id="theme-button"></i> -->
+
+                <!--Toggle Button-->
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-4-line"></i>
+                </div>
+            </div>
+        </nav>
+
+</html>
+</header>
+
+<!--==================== MAIN ====================-->
+<main class="main">
+    <!--==================== HOME ====================-->
+    <section class="home section" id="home">
+        <div class="home__container container grid section__border">
+            <div class="home__data grid">
+                <h1 class="home__title">
+                    Hi, i'm <br>
+                    Frontend Developer <br>
+                    Based in New Delhi <br>
+                </h1>
+
+                <div class="home__blob grid">
+                    <div class="home__perfil">
+                        <img src="/assets/img/perfil.png" alt="profile image">
+                    </div>
+
+                    <img src="/assets/img/shape-wawes.svg" alt="" class="home__shape-waawes">
+                            <img src="/assets/img/shape-circle.svg" alt="" class="home__shape-circle">
+                </div>
+
+                <ul class="home__social">
+                    <a href="https://www.linkedin.com/in/heymanukumar/" target="_blank" class="home__social-linkj">
+                        <i class="ri-linkedin-box-line"></i>
                     </a>
 
-                    <div class="nav__menu" id="nav-menu">
-                        <ul class="nav__list grid"> 
-                            <li class="nav__item">
-                                <a href="#home" class="nav__link">
-                                    <i class="ri-home-5-line"></i> Home
-                                </a>
-                            </li>
-                            
-                            <li class="nav__item">
-                                <a href="#skills" class="nav__link">
-                                    <i class="ri-trophy-line"></i> Skills
-                                </a>
-                            </li>
-                            
-                            <li class="nav__item">
-                                <a href="#qualification" class="nav__link">
-                                    <i class="ri-book-open-line"></i> Qualification
-                                </a>
-                            </li>
+                    <a href="https://github.com/heymanukumar" target="_blank" class="home__social-linkj">
+                        <i class="ri-github-line"></i>
+                    </a>
 
-                            <li class="nav__item">
-                                <a href="#services" class="nav__link">
-                                    <i class="ri-briefcase-line"></i> Services
-                                </a>
-                            </li>
+                    <a href="https://dribbble.com/heymanukumar" target="_blank" class="home__social-linkj">
+                        <i class="ri-dribbble-line"></i>
+                    </a>
+                </ul>
+            </div>
+            <!--==================== Home Info 1 ====================-->
+            <div class="home__info">
+                <div>
+                    <h3 class="home__info-title">
+                        BIOGRAPHY
+                    </h3>
 
-                            <li class="nav__item">
-                                <a href="#project" class="nav__link">
-                                    <i class="ri-image-line"></i> Projects
-                                </a>
-                            </li>
-                            <li class="nav__item">
-                                <a href="#contact" class="nav__link">
-                                    <i class="ri-chat-3-line"></i> Contact
-                                </a>
-                            </li>
-                        </ul> 
+                    <p class="home__info-description">
+                        Hi, I'm Chris, Frontend Developer.
+                        Passionate about designing beautiful web
+                        interfaces. Based in Perú.
+                    </p>
+                </div>
 
-                        <!--Close Button -->
-                        <div class="nav__close" id="nav-close">
-                            <i class="ri-close-line"></i> 
-                        </div>
-                    </div>
+                <div>
+                    <h3 class="home__info-title">
+                        CONTACT
+                    </h3>
 
-                    <div class="nav__buttons">
-                        <!--Theme CHnage Button-->
-                        <!-- <i class="ri-moon-line change-theme" id="theme-button"></i> -->
+                    <p class="home__info-description">
+                        heymanukumar@email.com <br>
+                        +91 7503809210 <br>
+                    </p>
+                </div>
 
-                        <!--Toggle Button-->
+                <div>
+                    <h3 class="home__info-title">
+                        SERVICES
+                    </h3>
 
-                        <div class="nav__toggle" id="nva_toggle">
-                            <i class="ri-menu-4-line"></i>
-                        </div>
-                    </div>
-                </nav>
-            </html>
-        </header>
+                    <p class="home__info-description">
+                        Website Design <br>
+                        UI/UX Design <br>
+                        Animation <br>
+                    </p>
+                </div>
+            </div>
 
-        <!--==================== MAIN ====================-->
-        <main class="main">
-            <!--==================== HOME ====================-->
-            <section class="home section" id="home">
-                
-            </section>
+             <!--==================== Home Info 2 ====================-->
+             <div class="home__info">
+                <div>
+                    <h3 class="home__info-title">
+                        YEARS OF EXPERIENCE
+                    </h3>
 
-            <!--==================== SKILLS ====================-->
-            <section class="skills section" id="skills">
-                
-            </section>
+                    <p class="home__info-number">
+                        08+
+                    </p>
+                </div>
 
-            <!--==================== QUALIFICATION ====================-->
-            <section class="qualification section" id="qualification">
-                
-            </section>
+                <div>
+                    <h3 class="home__info-title">
+                        COMPLETED PROJECTS
+                    </h3>
 
-            <!--==================== SERVICES ====================-->
-            <section class="services section" id="services">
-                
-            </section>
+                    <p class="home__info-number">
+                        24+
+                    </p>
+                </div>
 
-            <!--==================== PROJECTS ====================-->
-            <section class="projects section" id="projects">
-                
-            </section>
+                <div>
+                    <h3 class="home__info-title">
+                        COMPANIES WORKED
+                    </h3>
 
-            <!--==================== TESTIMONIAL ====================-->
-            <section class="testimonial section">
-                
-            </section>
+                    <p class="home__info-number">
+                        07+
+                    </p>
+                </div>
+             </div>
+        </div>
+    </section>
 
-            <!--==================== CONTACT ====================-->
-            <section class="contact section" id="contact">
-                
-            </section>
-        </main>
+    <!--==================== SKILLS ====================-->
+    <section class="skills section" id="skills">
 
-        <!--==================== FOOTER ====================-->
-        <footer class="footer">
-            
-        </footer>
+    </section>
+
+    <!--==================== QUALIFICATION ====================-->
+    <section class="qualification section" id="qualification">
+
+    </section>
+
+    <!--==================== SERVICES ====================-->
+    <section class="services section" id="services">
+
+    </section>
+
+    <!--==================== PROJECTS ====================-->
+    <section class="projects section" id="projects">
+
+    </section>
+
+    <!--==================== TESTIMONIAL ====================-->
+    <section class="testimonial section">
+
+    </section>
+
+    <!--==================== CONTACT ====================-->
+    <section class="contact section" id="contact">
+
+    </section>
+</main>
+
+<!--==================== FOOTER ====================-->
+<footer class="footer">
+
+</footer>
 
 
-        <!--========== SCROLL UP ==========-->
-        
+<!--========== SCROLL UP ==========-->
 
-        <!--=============== SCROLLREVEAL ===============-->
-        <script src=""></script>
 
-        <!--=============== SWIPER JS ===============-->
-        <script src=""></script>
-        
-        <!--=============== EMAIL JS ===============-->
-        
+<!--=============== SCROLLREVEAL ===============-->
+<script src=""></script>
 
-        <!--=============== MAIN JS ===============-->
-        <script src="assets/js/main.js"></script>
-    </body>
+<!--=============== SWIPER JS ===============-->
+<script src=""></script>
+
+<!--=============== EMAIL JS ===============-->
+
+
+<!--=============== MAIN JS ===============-->
+<script src="assets/js/main.js"></script>
+</body>
+
 </html>
