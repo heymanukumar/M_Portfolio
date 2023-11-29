@@ -552,13 +552,14 @@ body.dark-theme {
 .projects__img{
   width: 250px;
   border-radius: .75rem;
-  margin-bottom: 1.2rem;
+  margin-bottom: 1.25rem;
 }
 
 .projects__subtitle{
-  font-size: var(--small-font-size);
+  font-size: var(--small-font-size)x;
   color: var(--text-color-light);
 }
+
 .projects__title{
   font-size: var(--h2-font-size);
   margin-bottom: 1.25rem;
@@ -566,7 +567,7 @@ body.dark-theme {
 }
 
 .projects__button{
-  display: inline;
+  display: inline-flex;
   align-items: center;
   column-gap: .5rem;
   color: var(--title-color);
@@ -579,7 +580,7 @@ body.dark-theme {
 }
 
 .projects__button:hover i{
-  transform: translateX(.25rem);
+  transform: translateX(.35rem);
 }
 /* Swiper class */
 
