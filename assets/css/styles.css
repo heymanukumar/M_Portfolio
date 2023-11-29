@@ -580,7 +580,7 @@ body.dark-theme {
 }
 
 .projects__button:hover i{
-  transform: translateX(.35rem);
+  transform: translateX(.25rem);
 }
 /* Swiper class */
 
