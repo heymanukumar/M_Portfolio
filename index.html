@@ -614,16 +614,51 @@
 
                         <div class="contact__info">
                             <div class="contact__data">
-                                <span class="contact__data-title"></span>
-                                <span class="contact__data-info"></span>
+                                <span class="contact__data-title">Email</span>
+                                <span class="contact__data-info">heymanukumar@gmail.com</span>
+                            </div>
+                            <div class="contact__data">
+                                <span class="contact__data-title">Whatsapp</span>
+                                <span class="contact__data-info">+91 7503809210</span>
+                                <a href="https://api.whatsapp.com/send?phone=917503809210&text=Hello, more infomation" target="_blank" class="contact__button">
+                                    Write me <i class="ri-arrow-right-line"></i>
+                                </a>
+                            </div>
+
+                            <div class="contact__data">
+                                <span class="contact__data-title"> Messenger</span>
+                                <span class="contact__data-info"> ?</span>
+                                <a href="https://github.com/heymanukumar" target="_blank" class="contact__button">
+                                    Write me
+                                </a>
                             </div>
                         </div>
                     </h3>
                 </div>
                 <div class="contact__content">
                     <h3 class="contact__title">
-                        
+                        <i class="ri-send-plane-line"></i> Write me your project
                     </h3>
+
+                    <form action="#" class="contact__form" id="contact-form">
+                        <div class="contact__form-div">
+                            <label class="contact contact__form-tag">Name </label>
+                            <input type="text" name="user__name" required placeholder="Write your names" class="contact__form-input" id="contact-name">
+                        </div>
+
+                        <div class="contact__form-div">
+                            <label class="contact contact__form-tag">Mail </label>
+                            <input type="email" name="user__email" required placeholder="Write your mail" class="contact__form-input" id="contact-email">
+                        </div>
+
+                        <div class="contact__form-div contact__form-area">
+                            <label class="contact contact__form-tag">Project</label>
+                            <textarea name="user__project" placeholder="Write your project" id="contact-project" class="contact__form-input"></textarea>
+                        </div>
+                        <button type="submit" class="contact__button">
+                            Submit <i class="ri-arrow-right-up-line"></i>
+                        </button>
+                    </form>
                 </div>
             </div>
         </section>
