@@ -692,10 +692,20 @@ body.dark-theme {
   opacity: initial;
   color: var(--text-color-light);
 }
-
 /*=============== CONTACT ===============*/
+.contact__container{
+  row-gap: 3.5rem;
+}
 
-
+.contact__title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: .5rem;
+  font-size: var(--small-font-size);
+  font-weight: var(--font-semi-bold);
+  margin-bottom: 2.5rem;
+}
 /* Status color */
 
 
