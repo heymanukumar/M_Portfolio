@@ -57,34 +57,32 @@ const contactForm = document.getElementById('contact-form'),
     contactName = document.getElementById('contact-name'),
     contactEmail = document.getElementById('contact-email'),
     contactProject = document.getElementById('contact-project'),
-    contactMessage = document.getElementById('contact-message'); // Fix typo here
+    contactMessage = document.getElementById('contact-message') // Fix typo here
 
 const sendEmail = (e) => {
     e.preventDefault();
 
     if (contactName.value === '' || contactEmail.value === '' || contactProject.value === '') {
         // Add and remove color
-        contactMessage.classList.remove('color-blue');
-        contactMessage.classList.add('color-red');
+        contactMessage.classList.remove('color-red')
+        contactMessage.classList.add('color-red')
 
-        // Show message
-        contactMessage.textContent = 'Write all the input fields';
-    } else {
-        // serviceID - templateID - #form - publicKey
-        emailjs.sendForm('service_jk0r56t', 'template_2vne68b', 'contact-for', 'EK3DEMnZ8S2VwyK4v')
-            .then(() => {
-                // Show success message and add color
-                contactMessage.classList.add('color-blue')
-                contactMessage.textContent = 'Message sent'
+        //show message
+        contactMessage.textContent = 'Write all the input fields'
+    }else{
+        //servicrID - templateID - form - publicKey
+        emailjs.sendForm('service_49g2ulh', 'template_m56itr6', '#contact-form', 'EK3DEMnZ8S2VwyK4v')
+        .then(() =>{
+            contactMessage.classList.add('color-blue')
+            contactMessage.textContent = 'Message sent'
 
-                // Remove message after five seconds
-                setTimeout(() => {
-                    contactMessage.textContent = ''
-                }, 5000);
-            })
-
+            //remove after 5 second
+            setTimeout(() =>{
+                contactMessage.textContent = ''
+            }, 5000)
+        })
     }
-};
+}
 
 contactForm.addEventListener('submit', sendEmail);
 
