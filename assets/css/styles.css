@@ -836,8 +836,27 @@ body.dark-theme {
   color: hsl(207, 56%, 45%);
 }
 /*=============== FOOTER ===============*/
+ .footer__container{
+  padding: 3rem 0 7rem;
+  text-align: center;
+ }
 
+ .footer__title{
+  font-size: var(--h1-font-size);
+  font-weight: var(--font-semi-bold);
+  margin-bottom: 5rem;
+ }
 
+ .footer__list,
+ .footer__social{
+  display: flex;
+  justify-content: center;
+ }
+
+ .footer__list{
+  margin: 2.5rem 0;
+  columns: 2.5rem;
+ }
 /*=============== SCROLL BAR ===============*/
 
 
