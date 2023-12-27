@@ -80,10 +80,15 @@ const sendEmail = (e) => {
             setTimeout(() =>{
                 contactMessage.textContent = ''
             }, 5000)
+        }, (error) =>{
+            alert('OOPS! SOMETHING HAS FAILED...', error)
         })
+        //to clear the input
+        contactName.value = ''
+        contactEmail.value = ''
+        contactProject.value = ''
     }
 }
-
 contactForm.addEventListener('submit', sendEmail);
 
 /*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
