@@ -857,6 +857,14 @@ body.dark-theme {
   margin: 2.5rem 0;
   columns: 2.5rem;
  }
+
+ .footer__link{
+  color: var(--title-color);
+ }
+
+ .footer__link:hover{
+  text-decoration: underline;
+ }
 /*=============== SCROLL BAR ===============*/
 
 
